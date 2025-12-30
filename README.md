@@ -6,7 +6,7 @@ A CLI tool that constrains a HuggingFace causal language model to only generate 
 
 This tool implements vocabulary-constrained text generation. The model can only output words (and punctuation/whitespace) that exist in your provided corpus file. The output won't necessarily reproduce your file verbatim—it just can't use *new* words beyond what's in your vocabulary file.
 
-Inspired by the "biblically-accurate-sampler" concept, generalized to work with any plaintext corpus in multiple languages (English, Russian, Ukrainian, etc.).
+Inspired by the "biblically-accurate-sampler" concept by @voooooogel (https://x.com/voooooogel), generalized to work with any plaintext corpus in multiple languages (English, Russian, Ukrainian, etc.).
 
 ## How It Works
 
